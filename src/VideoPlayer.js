@@ -14,7 +14,7 @@ const VideoPlayer = ({ video }) => {
             controls={true}
             volume={0.8}
             width='100%'
-            height='150%'
+            height='200%'
           />
         </div>
       ) : (

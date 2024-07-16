@@ -6,12 +6,12 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-container">
-        <a href="/" className="navbar-logo">
+        <a href="/Home" className="navbar-logo">
           Moe's video player
         </a>
         <ul className="nav-menu">
           <li className="nav-item">
-            <a href="/" className="nav-links">
+            <a href="/Home" className="nav-links">
               Home
             </a>
           </li>
@@ -22,17 +22,17 @@ const Navbar = () => {
             </a>
             <ul className="dropdown-menu">
               <li className="dropdown-item">
-                <a href="/" className="dropdown-link">
+                <a href="/Fitness" className="dropdown-link">
                   Fitness
                 </a>
               </li>
               <li className="dropdown-item">
-                <a href="/" className="dropdown-link">
+                <a href="/Nutrition" className="dropdown-link">
                   Nutrition
                 </a>
               </li>
               <li className="dropdown-item">
-                <a href="/" className="dropdown-link">
+                <a href="/Motivational" className="dropdown-link">
                   Motivational
                 </a>
               </li>
