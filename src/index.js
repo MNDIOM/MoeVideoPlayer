@@ -6,7 +6,7 @@ import App from './App.js'; // Ensure this import is correct and only once
 import reportWebVitals from './reportWebVitals';
 import './Navbar.css';
 // import './VideoList.js';
-import ReactPlayer from 'react-player';
+// import ReactPlayer from 'react-player';
 
 ReactDOM.render(
   <React.StrictMode>
